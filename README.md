@@ -51,7 +51,7 @@ task_config.json记录了模型要加载的具体数据模块配置文件、执�
 *PS：所有参数的注释以及取值可从https://bigscity-libcity-docs.readthedocs.io/en/latest/user_guide/config_settings.html 搜索得到。*
 
 ### *调试任务实现多卡训练*
-调用 M_libcity/run_with_multi_devices.sh 文件
+调用 M_libCity_[x]/run_with_multi_devices.sh 文件
 
 多卡训练,启动方式为：
 ```
