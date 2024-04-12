@@ -1,6 +1,7 @@
 # M-LibCity-npu
 ## 特殊注意事项
 *   当前文件目录仅支持NPU后端的M-LibCity，请确保执行环境下有可用的NPU设备。
+*   基于NPU进行多卡训练或推理之前，需要先运行hccl.py生成运行所需的配置文件。具体操作为：```python hccl_tool.py [x]```，其中[x]指具体要使用的卡数。
 
 ## 数据集
 所有数据集都应存放在raw_data下。
