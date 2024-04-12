@@ -1,0 +1,10 @@
+M_libcity/cache/
+M_libcity/device0/
+M_libcity/device1/
+.ipynb_checkpoints/
+M_libcity/.ipynb_checkpoints/
+M_libcity/rank_0/
+M_libcity/log/
+*.pyc
+*.log
+M_libcity/raw_data/
